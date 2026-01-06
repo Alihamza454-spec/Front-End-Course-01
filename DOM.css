@@ -1,0 +1,21 @@
+.h1{
+    background-color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: line-through;
+}
+#p1{
+    background-color: darkgray;
+}
+#div {
+    background-color: aqua;
+}
+body{
+    background-color: pink;
+}
+p{
+    background-color: aquamarine;
+}
+button{
+    color: white;
+    background-color: blue;
+}

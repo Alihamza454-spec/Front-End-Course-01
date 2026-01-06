@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter App</title>
+</head>
+<body>
+<h1>Welcome to the Counter App</h1> 
+<ol>
+<label>You can Chose one of them</label><br>    
+<li>Increment</li>
+<li>Decrement</li>
+<li>Reset</li>
+</ol>
+<input type="number" id="01">
+<label for="numbers"></label>
+<button onclick="Increment()">Increment</button>
+<button onclick="Decrement()">Decrement</button>
+<button onclick="REset()">Reset</button>
+<script>
+let Inputnumber=document.getElementById("01");
+function Increment (Inputnumber){
+Inputnumber++;
+}
+function Decrement (Inputnumber){
+Inputnumber--;
+}
+function REset (Inputnumber){
+Inputnumber=0;
+}
+</script>
+</body>
+</html>
